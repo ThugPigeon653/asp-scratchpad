@@ -9,7 +9,7 @@ namespace WebApplication.Controllers
 {
     public class DataController : ApiController
     {
-        string data = "Success status";
+        string data = "Success status from API";
         
         [HttpGet]
         public string index()
